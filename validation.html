@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--registration-->
+    <form action="main.py">
+        <p>All * field are mandatory </p>
+        <select name="" id=""
+        <label for="">Name:</label>
+        <input type="text" placeholder="enter your name" name="fn" required>
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="enter email" name="em" required><br><br>
+        <label for="">Password:</label>
+        <input type="password" placeholder="password" name="pws" minlength="6"><br><br>
+        <label for="">Age:</label>
+        <input type="age" placeholder="enter age " name="ag" required min="18" max="60"> <br><br>
+        <label for="">Mobno:*</label>
+        <input type="text" placeholder="enter number" name="mb" pattern="91+[0-9]">
+        <button type="=submit">submit</button>
+    </form>
+</body>
+</html>

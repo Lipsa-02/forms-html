@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.py" method="get">
+        <fieldset>
+            <legend>signin</legend>
+        <lable for="na">Name:</lable>
+        <input type="text" placeholder="Enter your name" name="na"><br><br>
+
+
+        <!--radio button-->
+        <input type="radio" name="gender" value="male" id="m">
+        <lable for="m">Male</lable>
+        <input type="radio" name="gender" value="Female" id="f">
+        <lable for="f">Female</lable><br><br>
+        <!--checkbox--><p>choose any of your choices</p>
+        <input type="checkbox" name="lang" value="english" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" value="hindi" id="hn">
+        <label for="hn">Hindi</label>
+        <input type="checkbox" name="lang" value="odia" id="od">
+        <label for="od">Odia</label><br><br>
+        <!--textarea-->
+        <label for="add">enter your address</label>
+        <textarea name="add" id="add"></textarea><br><br>
+        <select name="state">
+            <option value="">Karnataka</option>
+            <option value="">Odisha</option>
+            <option value="">Kolkata</option>
+            <option value=">Andhraprasad</option>
+        </select>
+        <br><br>
+        <br><br>
+        <label for="Course">select your course</label>
+        <select name="Course" id="course">
+              <option value="cse">CSE</option>
+              <option value="ece">ECE</option>
+              <option value="eee">EEE</option>
+              <option value="mech">MECH</option>
+              <option value="bsc">BSC</option>
+              <option value="mca">MCA</option>
+              <option value="mcom">MCOM</option>
+        </select>
+        <br><br>
+        Email:<input type="email" name="em" placeholder="Enter the email" id="em"><br><br>
+        <lable for="pwd">password:</lable>
+        <input type="password" name="pwd" placeholder="Enter the password" id="pwd"><br><br>
+        <input type="date" name="doj" id="doj">
+        <input type="time" name="time" id="time">
+        <input type="datetime-local" name="dmy" id="dmy">
+        <input type="number" name="num" id="num">
+        <input type="file"><br><br>
+        <input type="color"name=""id=""><br>
+        <input type="month" name="" id="">
+        <input type="range" name="" id=""><br>
+        <input type="url" placeholder="url" id=""><br>
+        <input type="week" name="" id=""><br>
+        <input type="search" placeholder="search here" name="" id="">
+        <input type="button" value="some button">
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+
+        <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
